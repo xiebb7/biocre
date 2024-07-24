@@ -35,7 +35,7 @@ result = linkage(rna_adata,
                  lambda_l2=0.1,
                  downsample=None)
 ```
-The returned list encompasses the linkage for each chromosome. Given that BioCRE can be resource-intensive, employing significant amounts of memory, you may opt to expedite processing and reduce memory consumption through cell downsampling. Setting the desired cell count via the ·downsample· parameter facilitates this. Alternatively, utilizing the metacells derived from rna_adata and atac_adata can also speed computations, offering a strategy to manage large datasets more efficiently.
+The returned list encompasses the linkage for each chromosome. Given that BioCRE can be resource-intensive, employing significant amounts of memory, you may opt to expedite processing and reduce memory consumption through cell downsampling. Setting the desired cell count via the `downsample` parameter facilitates this. Alternatively, utilizing the metacells derived from rna_adata and atac_adata can also speed computations, offering a strategy to manage large datasets more efficiently.
 
 
 
