@@ -17,9 +17,9 @@ pip install biocre
 ```
 
 ## Usage of BioCRE
-Executing the BioCRE computational framework necessitates the provision of three primary inputs: `rna_adata`, `atac_adata`, and `meta_data`. Here's a refined explanation of these components:
-`rna_adata` - This represents the processed single-cell RNA sequencing (sncRNA-seq) data encapsulated in an AnnData object. 
-`atac_adata` - Similarly structured as rna_adata, but this dataset comprises single-cell Assay for Transposase-Accessible Chromatin using sequencing (snATAC-seq) information. 
-`meta_data` - This data serves as a genomic annotation resource. It includes precise genomic locations for genes and peaks. Typically, the cellranger output file named 'features.tsv.gz' serves as the metadata.
+Executing the BioCRE pipeline necessitates the provision of three primary inputs: `rna_adata`, `atac_adata`, and `meta_data`:
+* `rna_adata` - This represents the processed single-cell RNA sequencing (sncRNA-seq) data encapsulated in an AnnData object. 
+* `atac_adata` - Similarly structured as rna_adata, but this dataset comprises single-cell Assay for Transposase-Accessible Chromatin using sequencing (snATAC-seq) information. 
+* `meta_data` - This data serves as a genomic annotation resource. It includes precise genomic locations for genes and peaks. Typically, the cellranger output file named 'features.tsv.gz' serves as the metadata.
 
 
